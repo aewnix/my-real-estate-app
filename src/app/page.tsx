@@ -1,4 +1,5 @@
 import ListingCard from "@/components/ListingCard";
+import AddListingForm from "@/components/AddListingForm";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         location="Los Angeles, CA"
         description="A beautiful and modern home perfect for families. Includes a large backyard and pool."
       />
+        <AddListingForm />
     </main>
   );
 }
